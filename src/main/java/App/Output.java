@@ -1,23 +1,19 @@
 package App;
 
 import Framework.ConcreteClasses.Lines;
+import Framework.interfaces.Writer;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class Output {
 
+    private Writer writer;
+
+    public Output (Writer writer){
+        this.writer = writer;
+    }
     @SuppressWarnings("resource")
-    public void write(Lines shifts, File file) throws IOException{
-        FileWriter writter = new FileWriter(file);
-        shifts.all().stream().distinct().forEachOrdered(line -> {
-            try {
-                writter.write(line+"\n");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        });
-        writter.flush();
+    public void write(Lines shifts) throws IOException{
+        writer.write(shifts);
     }
 }

@@ -9,11 +9,8 @@ public class Input {
 
     private Reader reader;
 
-    private Writer writer;
-
-    public Input( Reader reader, Writer writer){
+    public Input( Reader reader ){
         this.reader = reader;
-        this.writer = writer;
 
     }
 

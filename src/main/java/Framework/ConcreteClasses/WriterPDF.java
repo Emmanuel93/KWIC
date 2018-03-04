@@ -11,7 +11,7 @@ public class WriterPDF extends AbstractWriter{
     }
 
     @Override
-    public void write() {
+    public void write(Lines lines) {
         System.out.println("Escribi en el pdf"+this.path);
     }
 }
