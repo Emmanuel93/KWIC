@@ -28,6 +28,10 @@ public class Line implements Storable,Comparable {
         return this.words;
     }
 
+    public Integer getNumberOfLine() {
+        return numberOfLine;
+    }
+
     @Override
     public String toString() {
         String result="";

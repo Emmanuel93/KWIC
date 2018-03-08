@@ -8,25 +8,23 @@ import java.util.ArrayList;
 public class KWIC {
 
     private Lines lines = new Lines(new ArrayList<Line>());
-    private Lines shifts = new Lines(new ArrayList<Line>());
+    private Lines index = new Lines(new ArrayList<Line>());
 
-    private Input input = new Input(new ReaderTextFile("input.txt"));
+    private Input input = new Input(new ReaderTextFile("input.text"));
     private Output output = new Output(new WriterTextFile("output.txt"));
 
-    private CircularShift circularShift = new CircularShift(shifts);
+    private Indexer indexer = new Indexer(index);
     private Alphabetizer alphabetizer = new Alphabetizer();
 
     public KWIC() {
-        lines.addObserver(circularShift);
-        shifts.addObserver(alphabetizer);
+        lines.addObserver(alphabetizer);
         run();
     }
 
     private void run() {
         try {
             input.read(lines);
-            //input.readPDF(lines, new File("holy.pdf"));
-            output.write(shifts);
+            output.write(index);
         } catch (IOException e) {
             e.printStackTrace();
         }

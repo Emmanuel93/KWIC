@@ -18,6 +18,7 @@ public class WriterTextFile extends AbstractWriter {
 
     @Override
     public void write(Lines shifts) throws IOException {
+        System.out.println("entro");
         FileWriter writer = new FileWriter(file);
         shifts.all().stream().distinct().forEachOrdered(line -> {
             try {
