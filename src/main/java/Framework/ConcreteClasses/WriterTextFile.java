@@ -18,14 +18,14 @@ public class WriterTextFile extends AbstractWriter {
 
     @Override
     public void write(Lines shifts) throws IOException {
-        FileWriter writter = new FileWriter(file);
+        FileWriter writer = new FileWriter(file);
         shifts.all().stream().distinct().forEachOrdered(line -> {
             try {
-                writter.write(line+"\n");
+                writer.write(line+"\n");
             } catch (IOException e) {
                 e.printStackTrace();
             }
         });
-        writter.flush();
+        writer.flush();
     }
 }

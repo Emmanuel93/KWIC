@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
 
 public class ReaderTextFile extends AbstractReader {
 
@@ -22,7 +23,8 @@ public class ReaderTextFile extends AbstractReader {
     public void read(Lines lines) throws IOException {
         System.out.println("Text file leido"+ this.path);
 
-        Files.readAllLines(Paths.get(file.getName())).forEach(line -> lines.insert(line));
+        Files.readAllLines(Paths.get(file.getName()))
+                .forEach(line -> lines.insert(new Line(Arrays.asList(line.split(" ")))));
 
     }
 }

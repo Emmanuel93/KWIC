@@ -1,29 +1,40 @@
 package Framework.ConcreteClasses;
+import Framework.AbstractClasses.AbstractStorageObservable;
 
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Observable;
 
-public class Lines extends Observable{
 
-    private List<String> lines = new ArrayList<>();
+public class Lines extends AbstractStorageObservable<Line> {
 
-    public void insert(String line) {
+
+    public Lines(List<Line> lines) {
+        super(lines);
+    }
+
+    @Override
+    public List<Line> all() {
+        return this.lines;
+    }
+
+    @Override
+    public void insert(Line line) {
         lines.add(line);
         setChanged();
         notifyObservers(new LinesEvent(line));
     }
 
-    public void remove(int index) {
-        lines.remove(index);
+    @Override
+    public Line get(Integer index) {
+        return this.lines.get(index);
     }
 
-    public String get(int index) {
-        return lines.get(index);
+    @Override
+    public void remove(Integer index) {
+        this.lines.remove(index);
     }
 
-    public List<String> all(){
-        return lines;
+    @Override
+    public void update(Integer index, Line obj) throws Exception {
+        throw new Exception("no soportada aun!");
     }
 }

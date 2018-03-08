@@ -1,13 +1,10 @@
 package App;
 
-
+import Framework.ConcreteClasses.Line;
 import Framework.ConcreteClasses.Lines;
 import Framework.ConcreteClasses.LinesEvent;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
@@ -24,16 +21,20 @@ public class CircularShift implements Observer {
     @Override
     public void update(Observable o, Object arg) {
         LinesEvent event = (LinesEvent) arg;
+        Line line = event.getLine();
 
-        List<String> result = new LinkedList<>();
-        List<String> words = new ArrayList<>(Arrays.asList(event.getLine().split("\\s")));
+        List<String> words = line.getWords();
 
         for (int i = 0; i < words.size(); ++i) {
             Collections.rotate(words, 1);
-            result.add(build(words));
-        }
+            Line aux = new Line(words);
+            shifts.insert(aux);
 
-        result.stream().forEach(line -> shifts.insert(line));
+        }
+    }
+
+    public Lines getShifts() {
+        return shifts;
     }
 
     private String build(List<String> inc) {

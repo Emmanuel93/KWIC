@@ -2,13 +2,14 @@ package App;
 
 import Framework.ConcreteClasses.*;
 
-import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class KWIC {
 
-    private Lines lines = new Lines();
-    private Lines shifts = new Lines();
+    private Lines lines = new Lines(new ArrayList<Line>());
+    private Lines shifts = new Lines(new ArrayList<Line>());
+
     private Input input = new Input(new ReaderTextFile("input.txt"));
     private Output output = new Output(new WriterTextFile("output.txt"));
 

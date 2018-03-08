@@ -1,14 +1,15 @@
 package Framework.ConcreteClasses;
 
+
 public class LinesEvent {
 
-    private String line;
+    private Line line;
 
-    LinesEvent(String line) {
+    LinesEvent(Line line) {
         this.line = line;
     }
 
-    public String getLine() {
+    public Line getLine() {
         return line;
     }
 }

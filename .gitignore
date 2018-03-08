@@ -1,2 +1,6 @@
 output.txt
 .idea/
+out/
+out/production/classes/Framework/
+idea/workspace.xml
+

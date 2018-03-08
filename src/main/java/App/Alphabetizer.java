@@ -1,17 +1,17 @@
 package App;
 
+import Framework.ConcreteClasses.Line;
 import Framework.ConcreteClasses.Lines;
 
-import java.util.Comparator;
-import java.util.Observable;
-import java.util.Observer;
+
+import java.util.*;
 
 public class Alphabetizer implements Observer {
 
     @Override
     public void update(Observable o, Object arg1) {
-        Lines shifts = (Lines) o;
-        shifts.all().sort(Comparator.comparing(String::toLowerCase));
+        List<Line> shifts = ((Lines) o).all();
+        //shifts.sort(Comparator.comparing(String::toLowerCase));
     }
 }
 
