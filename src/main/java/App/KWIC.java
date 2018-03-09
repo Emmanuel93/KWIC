@@ -10,14 +10,14 @@ public class KWIC {
     private Lines lines = new Lines(new ArrayList<Line>());
     private Lines index = new Lines(new ArrayList<Line>());
 
-    private Input input = new Input(new ReaderTextFile("input.text"));
-    private Output output = new Output(new WriterTextFile("output.txt"));
+    private Input input = new Input(new ReaderPDF("clean.pdf"));
+    private Output output = new Output(new WriterPDF("output.pdf"));
 
     private Indexer indexer = new Indexer(index);
     private Alphabetizer alphabetizer = new Alphabetizer();
 
     public KWIC() {
-        lines.addObserver(alphabetizer);
+        lines.addObserver(indexer);
         run();
     }
 
