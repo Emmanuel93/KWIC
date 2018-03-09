@@ -44,6 +44,8 @@ public class WriterPDF extends AbstractWriter{
             }
         }
 
+        System.out.println(test);
+
         FileWriter writer = new FileWriter(file);
         Map<String, List<String>> result =  test.entrySet().stream().collect(Collectors.groupingBy(
                 Map.Entry::getValue,Collectors.mapping(Map.Entry::getKey, Collectors.toList())));

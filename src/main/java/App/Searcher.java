@@ -39,6 +39,7 @@ public class Searcher implements Observer {
 
             searchWords.stream()
                     .forEach(obj ->{
+                        System.out.println(line);
                         line.getWords().stream()
                                 .forEach( aux ->{
                                     if(obj.equals(aux)){
