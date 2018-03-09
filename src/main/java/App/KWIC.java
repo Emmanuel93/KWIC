@@ -25,7 +25,6 @@ public class KWIC {
     private void run() {
         try {
             input.read(lines);
-            //input.readPDF(lines, new File("holy.pdf"));
             output.write(shifts);
         } catch (IOException e) {
             e.printStackTrace();

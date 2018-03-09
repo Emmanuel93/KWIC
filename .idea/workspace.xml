@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c326e410-f058-4d6f-866d-55c22f80277c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Framework/AbstractClasses/AbstractStorage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Framework/AbstractClasses/AbstractStorageObservable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Line.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Framework/interfaces/Storable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Framework/interfaces/Storage.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/App/Alphabetizer.class" afterPath="$PROJECT_DIR$/out/production/classes/App/Alphabetizer.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/App/CircularShift.class" afterPath="$PROJECT_DIR$/out/production/classes/App/CircularShift.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/App/Input.class" afterPath="$PROJECT_DIR$/out/production/classes/App/Input.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/App/KWIC.class" afterPath="$PROJECT_DIR$/out/production/classes/App/KWIC.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/App/Line.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/App/Page.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Framework/AbstractClasses/AbstractReader.class" afterPath="$PROJECT_DIR$/out/production/classes/Framework/AbstractClasses/AbstractReader.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/Lines.class" afterPath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/Lines.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/LinesEvent.class" afterPath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/LinesEvent.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/ReaderPDF.class" afterPath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/ReaderPDF.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/ReaderTextFile.class" afterPath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/ReaderTextFile.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/WriterTextFile.class" afterPath="$PROJECT_DIR$/out/production/classes/Framework/ConcreteClasses/WriterTextFile.class" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App/Alphabetizer.java" afterPath="$PROJECT_DIR$/src/main/java/App/Alphabetizer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App/CircularShift.java" afterPath="$PROJECT_DIR$/src/main/java/App/CircularShift.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App/Input.java" afterPath="$PROJECT_DIR$/src/main/java/App/Input.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App/KWIC.java" afterPath="$PROJECT_DIR$/src/main/java/App/KWIC.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App/Line.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App/Page.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/AbstractClasses/AbstractReader.java" afterPath="$PROJECT_DIR$/src/main/java/Framework/AbstractClasses/AbstractReader.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines.java" afterPath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/LinesEvent.java" afterPath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/LinesEvent.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderPDF.java" afterPath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderPDF.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderTextFile.java" afterPath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderTextFile.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/WriterTextFile.java" afterPath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/WriterTextFile.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Line.java" afterPath="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Line.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,12 +45,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CircularShift.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KWIC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/KWIC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircularShift.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App/CircularShift.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="295">
+              <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
                 <element signature="e#843#844#0" expanded="true" />
@@ -82,15 +75,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReaderTextFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderTextFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lines.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alphabetizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Alphabetizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Line.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Line.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-              <folding>
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Input.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Input.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -449,7 +513,6 @@
         <option value="$PROJECT_DIR$/src/main/java/App/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/App/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/LineEvent.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/LinesEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/AbstractClasses/AbstractStorageObservable.java" />
@@ -463,13 +526,14 @@
         <option value="$PROJECT_DIR$/src/main/java/App/Output.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/WriterPDF.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/interfaces/Writer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App/KWIC.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderTextFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/WriterTextFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/CircularShift.java" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/App/KWIC.java" />
         <option value="$PROJECT_DIR$/src/main/java/App/Alphabetizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App/CircularShift.java" />
       </list>
     </option>
   </component>
@@ -543,15 +607,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KWIC-alone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KWIC-alone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClasses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KWIC-alone" type="b2602c69:ProjectViewProjectNode" />
@@ -713,35 +768,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27559000" />
+    <option name="totallyTimeSpent" value="29168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10500808" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07015131" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20220083" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2714055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35350758" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28029078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08723748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08723748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -750,8 +805,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -794,8 +849,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/AbstractClasses/AbstractInput.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AbstractClasses/Input.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/OutputTextFile.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/InputPDF.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/OutputPDF.java" />
@@ -866,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="146" column="19" lean-forward="false" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,21 +927,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/WriterBehavior.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Framework.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Framework/interfaces/Interfaces.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding>
-            <element signature="e#178#179#0" expanded="false" />
-            <element signature="e#212#213#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
-            <element signature="e#281#282#0" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Page.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Line.java" />
     <entry file="uml://JAVA/Framework.ConcreteClasses.ReaderTextFile">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -941,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-713">
           <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,14 +1021,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Framework/AbstractClasses/AbstractReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1041,9 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,14 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1095,39 +1109,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Alphabetizer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/LinesEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#114#115#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderTextFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/WriterTextFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="231">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="143" column="5" lean-forward="false" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+          <folding>
+            <marker date="1505382647000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1505382647000" expanded="false" signature="134:628" ph="..." />
+            <marker date="1505382647000" expanded="true" signature="1161:1258" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="1393:1801" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="1901:1960" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="2067:2126" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="2228:2287" ph="{...}" />
+            <marker date="1505382647000" expanded="false" signature="2320:2331" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="2381:2387" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="2430:2466" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="2511:3263" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="3337:4730" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="4778:4955" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="5000:5200" ph="{...}" />
+            <marker date="1505382647000" expanded="false" signature="5230:5241" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="5260:5266" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="5332:5621" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="5686:5831" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="5903:6232" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="6309:6600" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="6649:7815" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="7886:9133" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="9161:9300" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="9332:9523" ph="{...}" />
+            <marker date="1505382647000" expanded="false" signature="9548:9559" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="9607:9613" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="9655:9779" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/nio/charset/CoderResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="280" column="0" lean-forward="false" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/KWIC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="278">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/CircularShift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/ReaderTextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Lines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        <state relative-caret-position="36">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
@@ -1142,31 +1224,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/LinesEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Alphabetizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding>
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/WriterTextFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1174,7 +1237,7 @@
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1182,21 +1245,24 @@
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/CircularShift.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ConcreteClasses/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

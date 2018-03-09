@@ -4,8 +4,9 @@ import Framework.interfaces.Storable;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class Line implements Storable,Comparable {
+public class Line implements Storable,Comparable<Line> {
 
     private Integer numberOfLine;
 
@@ -32,14 +33,16 @@ public class Line implements Storable,Comparable {
     public String toString() {
         String result="";
         for ( String word: this.words ) {
-            result+=word+" ";
+            result+=word.toLowerCase()+" ";
         }
 
         return result+="";
     }
 
     @Override
-    public int compareTo(Object o) {
-        return 1;
+    public int compareTo(Line o) {
+        String line1 = o.getWords().stream().collect(Collectors.joining()).toLowerCase();
+        String line2 = o.getWords().stream().collect(Collectors.joining()).toLowerCase();
+        return line1.compareTo(line2);
     }
 }
