@@ -40,12 +40,10 @@ public class Searcher implements Observer {
             searchWords.stream()
                     .forEach(obj ->{
                         System.out.println(line);
-                        line.getWords().stream()
-                                .forEach( aux ->{
-                                    if(obj.equals(aux)){
-                                        lines.insert( new Line(Arrays.asList(aux),line.getNumberOfLine()));
-                                    }
-                                });
+                        String lineaAux = line.toString().toLowerCase();
+                        if(lineaAux.indexOf(obj.toString().toLowerCase())>-1){
+                            lines.insert( new Line(line.getWords(),line.getNumberOfLine()));
+                        }
                     });
 
         } catch (IOException e) {
