@@ -19,8 +19,7 @@ public class KWIC {
     private Searcher searcher = new Searcher(search);
 
     public KWIC() {
-        lines.addObserver(indexer);
-        index.addObserver(searcher);
+        lines.addObserver(searcher);
         run();
     }
 

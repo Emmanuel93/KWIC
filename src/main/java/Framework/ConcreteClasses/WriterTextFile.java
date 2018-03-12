@@ -20,7 +20,7 @@ public class WriterTextFile extends AbstractWriter {
     public void write(Lines shifts) throws IOException {
         System.out.println("entro");
         FileWriter writer = new FileWriter(file);
-        shifts.all().stream().distinct().forEachOrdered(line -> {
+        shifts.all().stream().map(Line::getNumberOfLine).distinct().forEachOrdered(line -> {
             try {
                 writer.write(line+"\n");
             } catch (IOException e) {

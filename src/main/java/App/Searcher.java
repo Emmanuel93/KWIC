@@ -39,12 +39,17 @@ public class Searcher implements Observer {
 
             searchWords.stream()
                     .forEach(obj ->{
-                        line.getWords().stream()
+
+                        String linea =  line.toString().toLowerCase();
+                        if(linea.contains(obj.toLowerCase())){
+                            lines.insert(new Line( Arrays.asList( obj.toLowerCase() ), line.getNumberOfLine() ) );
+                        }
+                        /*line.getWords().stream()
                                 .forEach( aux ->{
                                     if(obj.equals(aux)){
                                         lines.insert( new Line(Arrays.asList(aux),line.getNumberOfLine()));
                                     }
-                                });
+                                });*/
                     });
 
         } catch (IOException e) {
